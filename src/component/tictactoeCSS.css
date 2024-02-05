@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(51, 46, 46);
+}
+td{
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 100px;
+    color:red;
+}
+table{
+    margin-left: 35%;
+    margin-top: 1%;
+}
+h1{
+    color: aliceblue;
+}

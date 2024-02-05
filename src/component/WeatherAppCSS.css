@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  background-color: rgb(116, 152, 225);
+}
+.container {
+  background-color: purple;
+  height: 350px;
+  width: 500px;
+  border-radius: 5px;
+  margin-left: 300px;
+  padding-top: 60px;
+}
+.weather {
+  width: 380px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 1px auto;
+  background-color: aqua;
+ 
+}
+.search {
+  /* display: flex; */
+  /* text-align: center; */
+  /* justify-content: space-between; */
+  display: block;
+}
+img {
+  width: 10px;
+  height: 10px;
+}

@@ -1,0 +1,56 @@
+.buttonStyle button{
+    width: 100px;
+    height: 38.48px;
+    margin: 20px;
+    transition-property: width;
+    transition-duration: 0.9s;
+}
+.buttonStyle button:hover{
+    background-color: rgb(172, 168, 168);
+ 
+    height: 48.48px;
+}
+.table {
+    background-color: antiquewhite;
+    width: 100%;
+    border: 1px solid black;
+}
+
+tr,th,td{
+    border:1px solid black;
+}
+
+.tableData {
+    white-space: nowrap;
+}
+.containt{
+    overflow-y: auto;
+  max-height: 800px;
+}
+.Error{
+    margin-top: 0;
+    color: red;
+    margin-bottom: 1rem;
+    font-size: 50px;
+    text-shadow: 5px 3px 5px black;
+}
+.headerAtag a{
+    color: antiquewhite;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.inputField{
+    margin: 11px;
+    display: flex;
+    gap: 20px;
+}
+ button{
+    width: 128px;
+    border-radius: 10px;
+    background-color: #cacac0;
+}
+.inputField input{
+    outline: auto;
+    border-radius: 20px;
+}

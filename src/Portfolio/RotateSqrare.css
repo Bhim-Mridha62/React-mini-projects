@@ -1,0 +1,19 @@
+.Animation-loder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.Animation-loder div{
+    border: 10px solid #7fff00;
+    animation: animate 18s linear infinite;
+}
+@keyframes animate {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,46 @@
+.MyForm {
+    background-color: #6da9e4;
+    width: 1920px;
+    height: 100vh;
+    overflow: auto;
+  
+    position: relative;
+  
+    border-radius: 10px;
+  }
+  form {
+    position: absolute;
+    width: 710px;
+    height: 1000px;
+    float: left;
+  }
+  .display {
+    position: absolute;
+    width: 710px;
+    height: 1000px;
+    left: 38%;
+  }
+  input {
+    /* margin-top: 20px; */
+    background-color: antiquewhite;
+  }
+  button {
+    background-color: #a6d0dd;
+  }
+  .MyForm-text {
+    background-image: linear-gradient(60deg, #e21143, #ffb03a);
+    background-clip: text;
+    color: transparent;
+  }
+  .submit {
+    font-size: 25px;
+    margin-left: 50%;
+    margin-top: 20%;
+  }
+  .registration {
+    font-size: 40px;
+    margin-left: 50%;
+    background-color: aqua;
+    border-radius: 8px;
+    color: #e21143;
+  }

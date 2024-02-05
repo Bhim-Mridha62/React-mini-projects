@@ -1,0 +1,19 @@
+/* .all-movies{
+display: flex;
+flex-wrap: wrap;
+
+}
+.all-movies p img{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+input{
+    align-items: center;
+} */
+.movies{
+    display: inline;
+    box-sizing: border-box;
+    display: flex;
+    display: inline-block;
+}

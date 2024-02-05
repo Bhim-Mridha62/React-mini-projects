@@ -1,0 +1,17 @@
+body{
+    background-color:black;
+}
+.container{
+    margin-top: 17%;
+   text-align: center;
+    font-size: 40px;
+}
+.itsbody{
+    color:white;
+}
+.button button:first-child{
+    background-color: green;
+}
+.button button:last-child{
+    background-color: red;
+}

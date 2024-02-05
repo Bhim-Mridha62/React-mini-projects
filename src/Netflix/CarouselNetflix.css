@@ -1,0 +1,39 @@
+.carousel{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.carousel-button{
+    position: absolute;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 50px;
+}
+.carousel-button .next{
+    margin-left: 1000px;
+}
+.carousel img{
+       transform: scaleX(-1);
+}
+
+  .img-1{
+    background: linear-gradient(to right, blac
+    ,transparent);
+  }
+  .image-container{
+    width: 71%;
+    position: relative;
+  }
+  .image-container::after{
+    content: '';
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(270deg,black,transparent);
+    top: 0;
+    right: -2px;
+    position: absolute;
+  }

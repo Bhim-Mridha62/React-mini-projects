@@ -1,0 +1,64 @@
+localStorage.removeItem("cart")
+
+localStorage.removeItem("dataType")
+
+loca
+VM167:1 Uncaught ReferenceError: loca is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM167:1
+localStorage.clear()
+
+localStorage.setItem("Name","Bhim Mridha")
+
+localStorage.setItem("Name","Subham")
+
+localStorage.setItem("Name","Bhim Mridha")
+
+localStorage.setItem("College","NMIET")
+
+localStorage.getItem("Name")
+'Bhim Mridha'
+
+localStorage.getItem("NMIET")
+null
+localStorage.getItem("College")
+'NMIET'
+localStorage.removeItem("NAME")
+
+localStorage.removeItem("Name")
+
+localStorage.setItem("Name","Bhim Mridha")
+
+sessionStorage.setItem("Name","Subham")
+
+sessionStorage.setItem("College","ABIET")
+
+
+cookieStore.set("name","Bhim Mridha")
+prompt("enter your name ")
+'dwhuewfwevug'
+let key=prompt("enter youy key");let value=prompt("Enter value");localStorage.setItem(key,value)
+
+let key=prompt("enter youy key");let value=prompt("Enter value");document.coo
+
+let key=prompt("enter youy key");let value=prompt("Enter value");document.cookie(key,value)
+VM1296:1 Uncaught TypeError: document.cookie is not a function
+    at <anonymous>:1:75
+(anonymous) @ VM1296:1
+let key=prompt("enter youy key");let value=prompt("Enter value");document.cookie=(key)
+null
+let key=prompt("enter youy key");let value=prompt("Enter value");document.cookie=(key,value)
+'wqdfiqwv'
+let key=prompt("enter youy key");let value=prompt("Enter value");document.cookie=(`${key},${value}`)
+'25,df;lewobfgew'
+let key=prompt("enter youy key");let value=prompt("Enter value");document.cookie=(`${encodeURIComponent(key)},${encodeURIComponent(value)}`)
+'50,fuefvuylewfef'
+key
+'50'
+value
+'fuefvuylewfef'
+let key=prompt("enter youy key");let value=prompt("Enter value");document.cookie=(`${encodeURIComponent(key)},${encodeURIComponent(value)}`)
+'%40%25%24%25%23%24%25,ewfgewjbferfg'
+\\
+decodeURIComponent('%40%25%24%25%23%24%25')
+'@%$%#$%'

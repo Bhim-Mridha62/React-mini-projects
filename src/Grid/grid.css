@@ -1,0 +1,54 @@
+ h1{
+     text-align: center;
+ }
+.grid-container{
+    background-color: #eeeeee;
+    width: 1500px;
+    margin: 70px 0 0 50px;
+    display: grid;
+    /* grid-template-columns: 500px 500px 500px; */
+    grid-template-columns: repeat(3,500px);
+    grid-template-rows: 150px 150px 150px;
+
+    /* fr use for equal distrubution  */
+     /* grid-template-columns: 1fr 1fr 1fr; */
+
+      /* for gap between div */
+      /* grid-row-gap: 20px;
+     grid-column-gap: 20px; */
+     /* grid-gap: 20px(row) 20px(column); */
+     grid-gap: 20px; 
+     
+}
+.grid-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item1{
+    background-color: red;
+}
+.item2{
+    background-color: blue;
+}
+.item3{
+    background-color: yellow;
+}
+.item4{
+    background-color: green;
+}
+.item5{
+    background-color: goldenrod;
+}
+.item6{
+    background-color: rgb(64, 243, 19);
+}
+.item7{
+    background-color: rgb(145, 171, 237);
+}
+.item8{
+    background-color: rgb(148, 36, 158);
+}
+.item9{
+    background-color: rgb(90, 94, 11);
+}

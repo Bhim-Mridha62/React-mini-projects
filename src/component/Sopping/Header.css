@@ -1,0 +1,15 @@
+.header {
+  background-color: darkslategrey;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  font-size: 30px;
+}
+.shopicon img {
+  width: 30px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
